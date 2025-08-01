@@ -3,9 +3,17 @@
   packages = [
     pkgs.nodejs_20
   ];
+
   idx.extensions = [
     
   ];
+  idx.workspace = {
+      onCreate = {
+        default.openFiles = [
+          "src/app/e.tsx"
+        ];
+      };
+    };
   idx.previews = {
     previews = {
       web = {
