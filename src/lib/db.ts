@@ -2,7 +2,7 @@
 
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
-const uri = process.env.MONGODB_URI_ONLINE;
+const uri = process.env.MONGODB_URI as string;
 if (!uri) throw new Error("Missing MONGODB_URI_ONLINE");
 
 const client = new MongoClient(uri, {
