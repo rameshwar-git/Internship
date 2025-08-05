@@ -1,5 +1,8 @@
 # Firebase Studio Project
-
+# Try: 
+    https://internship-delta-gray.vercel.app/login
+    https://internship-delta-gray.vercel.app/dashboard
+    
 # Requirements :
     - nodejs
     - mongodb
@@ -45,4 +48,5 @@ Node.js
 
 # If MongoDB is not working 
     By Pass Login Page By changing:
-        http://localhost:3000/login -> http://localhost:3000/dashboard
+        - http://localhost:3000/login 
+        - http://localhost:3000/dashboard
