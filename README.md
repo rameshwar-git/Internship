@@ -1,7 +1,7 @@
 # Firebase Studio Project
 # Try: 
-    https://internship-delta-gray.vercel.app/login
-    https://internship-delta-gray.vercel.app/dashboard
+Login- https://internship-delta-gray.vercel.app/login
+Dashboard- https://internship-delta-gray.vercel.app/dashboard
     
 # Requirements :
     - nodejs
